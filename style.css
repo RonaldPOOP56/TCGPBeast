@@ -1,0 +1,98 @@
+#titles {
+    margin-left: 1%;
+}
+header {
+    border-bottom: 2px solid white;
+}
+
+#product1 {
+    height: 50%;
+    width: 25%;
+    border: solid 5px red;
+}
+#product1 img {
+    height: 50%;
+    border: solid 2px red;
+}
+#product1_1 {
+    width: 100%;
+    height: 100%;
+}
+* {
+    background-color: black;
+    color: white;
+}
+#titles {
+    color: whitesmoke;
+    background-color: green;
+    border: 2px green solid;
+    width: 10%;
+    font-size: 35px;
+    height: 10%;
+}
+#total {
+    display: flex;
+    flex-direction: row;
+}
+#product2{
+    height: 50%;
+    width: 25%;
+    border: solid 5px red;
+}
+#product2 img {
+    height: 100%;
+    border: solid 2px red;
+}
+#product3{
+    height: 50%;
+    width: 25%;
+    border: solid 5px red;
+}
+#product3_1 {
+    height: 100%;
+    width: 100%;
+}
+#product3 img {
+    height: 75%;
+    border: solid 2px red;
+}
+#product4{
+    height: 35%;
+    width: 25%;
+    border: solid 5px red;
+}
+#product4_1 {
+    height: 55%;
+    width: 50%;
+}
+#product4 img {
+    height: 75%;
+    border: solid 2px red;
+}
+
+#contact {
+    width: 15%;
+    height: 30%;
+    align-self: right;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: right;
+}
+#contact, #contacting {
+        width: 30%;
+        height: 30%;
+        align-self: right;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: right;    
+}
+
+
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

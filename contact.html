@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Contact Owner</title>
+    </head>
+    <h1 id="i">If you would like to pay for 0 packs for $0, please use discord to message our owner.</h1>
+    <a href="https://discord.com/channels/@me/936955943097356348"><img src="discord.png" alt=""></a>
+    <script>
+        let retrieve = localStorage.getItem("price");
+        console.log(retrieve)
+        const i = document.getElementById('i');
+        document.addEventListener("DOMContentLoaded", function() {
+            i.innerText = "If you would like to pay for " + Number(retrieve) + " packs, for $" + retrieve * 60 + ", please DM the person below by clicking on the image which will redirect you to discord.";
+        })
+        
+    </script>
+</html>

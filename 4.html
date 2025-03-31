@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Sv8a terrastal festival Japanese Version</title>
+        <link rel="stylesheet" href="1.css">
+        <script>
+            
+            document.addEventListener("DOMContentLoaded", function() {
+                clickdy.addEventListener("click", function() {
+                    const priceCalculation = document.getElementById("priceCalculation");
+                    const imp = document.getElementById("imp");
+                    const clickdy = document.getElementById("clickdy");
+                    let i = parseInt(imp) * 60;
+                    priceCalculation.innerText = "HKD" + (imp.value * 60)
+                    localStorage.setItem('price', imp.value);
+                })
+            })
+
+        </script>
+    </head>
+ <!--1 pack HKD$60-->
+ <!--10 packs HKD$600-->
+ <div id="all">
+    <div id="first">
+        <img src="product4.1.jpg" alt="">
+        <img src="product4.2.jpg" alt="">
+    </div>
+    <h1 id="titles">151 booster sv2a pack/box</h1>
+    <div id="payment">
+
+        <i><b><h1>Quantity</h1></b></i>
+        <div>
+            <input type="number" min="1" value="1" id="imp">
+            <button id="clickdy">Calculate price</button>
+        </div>
+        <h1 id="priceCalculation">HKD60</h1>
+        <button style="background-color: green; color: white; font-size: 30px;" onclick="location.href='contact.html'">Purchase</button>
+    </div>
+ </div>
+    
+</html>
